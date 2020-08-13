@@ -1,0 +1,1 @@
+C:\Users\DELL\source\repos\UWP tutorial 02\UWP tutorial 02\xBindDataExample.csproj;x86
