@@ -5,7 +5,7 @@
     xmlns:local="using:ObservableCollectionExample"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:date="using:ObservableCollectionExample.Models"
+    xmlns:data="using:ObservableCollectionExample.Models"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
@@ -39,7 +39,7 @@
                        Grid.Column="1"
                        ItemsSource="{x:Bind Icons}"
                        Margin="10">
-                <DataTemplate x:DataType="date:Icons">
+                <DataTemplate x:DataType="data:Icon">
                     <Image Source="{x:Bind IconPath}" Width="40" Height="40"/>
                 </DataTemplate>
                 
