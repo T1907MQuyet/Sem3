@@ -6,9 +6,16 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
+    Loaded="Page_loaded"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
-
-    </Grid>
+    <StackPanel Background="Brown">
+        <StackPanel VerticalAlignment="Center">
+            <Image Name="ResultImage" Width="200" Height="200" HorizontalAlignment="Center"/>
+            <TextBlock Name="TemTextBlock" FontSize="53" Foreground="White" HorizontalAlignment="Center"/>
+            <TextBlock Name="DescriptionTextBlock" FontSize="35" Foreground="White" HorizontalAlignment="Center"/>
+            <TextBlock Name="LocationTextBlock" FontSize="25" Foreground="White" HorizontalAlignment="Center" TextWrapping="Wrap"/>
+            <Button Name="Click" Click="Click_Click" Content="Click"/>
+        </StackPanel>
+    </StackPanel>
 </Page>
