@@ -18,6 +18,6 @@
     </Page.Resources>
     <Grid Background="{ThemeResource  ApplicationPageBackgroundThemeBrush}">
         <ListView  x:Name="lv" ItemTemplate="{StaticResource VideoTemplate}"
-                   ItemClick="lv_ItemClick_1" IsItemClickEnabled="True"/>
+                   ItemClick="lv_ItemClick" IsItemClickEnabled="True"/>
     </Grid>
 </Page>

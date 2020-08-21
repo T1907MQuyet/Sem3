@@ -78,10 +78,5 @@ namespace XemYouTubeThoi
             Video video = e.ClickedItem as Video;
             Frame.Navigate(typeof(VideoPage), video);
         }
-
-        private void lv_ItemClick_1(object sender, ItemClickEventArgs e)
-        {
-
-        }
     }
 }

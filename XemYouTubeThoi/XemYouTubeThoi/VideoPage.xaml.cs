@@ -42,7 +42,7 @@ namespace XemYouTubeThoi
                 if (NetworkInterface.GetIsNetworkAvailable())
                 {
                     video = e.Parameter as Model.Video;
-                    var Url = await YouTube.GetVideoUriAsync(video.Id, YouTubeQuality.Quality1080P);
+                    var Url = await YouTube.GetVideoUriAsync(video.Id, YouTubeQuality.QualityLow);
                     Player.Source = Url.Uri;
 
                 } else

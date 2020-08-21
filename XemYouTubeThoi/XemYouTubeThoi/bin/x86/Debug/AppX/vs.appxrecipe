@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\DELL\source\repos\XemYouTubeThoi\XemYouTubeThoi\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-21T04:48:55.128</Modified>
+      <Modified>2020-08-21T05:20:12.010</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\DELL\source\repos\XemYouTubeThoi\XemYouTubeThoi\bin\x86\Debug\XemYouTubeThoi.exe">
       <PackagePath>entrypoint\XemYouTubeThoi.exe</PackagePath>
-      <Modified>2020-08-21T04:48:54.109</Modified>
+      <Modified>2020-08-21T05:20:11.213</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DELL\.nuget\packages\google.apis\1.47.0\lib\netstandard2.0\Google.Apis.dll">
       <PackagePath>Google.Apis.dll</PackagePath>
@@ -142,15 +142,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DELL\source\repos\XemYouTubeThoi\XemYouTubeThoi\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-08-21T04:42:14.842</Modified>
+      <Modified>2020-08-21T05:16:03.088</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DELL\source\repos\XemYouTubeThoi\XemYouTubeThoi\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-08-21T04:42:14.842</Modified>
+      <Modified>2020-08-21T05:20:10.989</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DELL\source\repos\XemYouTubeThoi\XemYouTubeThoi\bin\x86\Debug\VideoPage.xbf">
       <PackagePath>VideoPage.xbf</PackagePath>
-      <Modified>2020-08-21T04:42:14.842</Modified>
+      <Modified>2020-08-21T05:16:03.088</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -162,7 +162,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DELL\source\repos\XemYouTubeThoi\XemYouTubeThoi\bin\x86\Debug\Core\XemYouTubeThoi.exe">
       <PackagePath>XemYouTubeThoi.exe</PackagePath>
-      <Modified>2020-08-21T04:48:55.121</Modified>
+      <Modified>2020-08-21T05:20:12.003</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
