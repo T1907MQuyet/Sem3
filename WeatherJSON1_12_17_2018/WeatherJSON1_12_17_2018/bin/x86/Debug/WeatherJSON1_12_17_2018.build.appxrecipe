@@ -34,8 +34,8 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DELL\source\repos\WeatherJSON1_12_17_2018\WeatherJSON1_12_17_2018\Assets\bg_weather.jpg">
-      <PackagePath>Assets\bg_weather.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\Users\DELL\source\repos\WeatherJSON1_12_17_2018\WeatherJSON1_12_17_2018\Assets\ahihi.jpg">
+      <PackagePath>Assets\ahihi.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DELL\source\repos\WeatherJSON1_12_17_2018\WeatherJSON1_12_17_2018\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>

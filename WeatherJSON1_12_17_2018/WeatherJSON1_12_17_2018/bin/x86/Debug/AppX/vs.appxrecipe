@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\DELL\source\repos\WeatherJSON1_12_17_2018\WeatherJSON1_12_17_2018\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-25T09:24:11.332</Modified>
+      <Modified>2020-08-26T01:56:50.301</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\DELL\source\repos\WeatherJSON1_12_17_2018\WeatherJSON1_12_17_2018\bin\x86\Debug\WeatherJSON1_12_17_2018.exe">
       <PackagePath>entrypoint\WeatherJSON1_12_17_2018.exe</PackagePath>
-      <Modified>2020-08-25T09:24:10.605</Modified>
+      <Modified>2020-08-26T01:56:48.331</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -46,9 +46,9 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2019-03-18T11:36:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DELL\source\repos\WeatherJSON1_12_17_2018\WeatherJSON1_12_17_2018\Assets\bg_weather.jpg">
-      <PackagePath>Assets\bg_weather.jpg</PackagePath>
-      <Modified>2020-08-25T09:21:26.454</Modified>
+    <AppxPackagedFile Include="C:\Users\DELL\source\repos\WeatherJSON1_12_17_2018\WeatherJSON1_12_17_2018\Assets\ahihi.jpg">
+      <PackagePath>Assets\ahihi.jpg</PackagePath>
+      <Modified>2020-08-26T01:55:39.250</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DELL\source\repos\WeatherJSON1_12_17_2018\WeatherJSON1_12_17_2018\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -98,7 +98,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DELL\source\repos\WeatherJSON1_12_17_2018\WeatherJSON1_12_17_2018\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-08-25T09:24:10.323</Modified>
+      <Modified>2020-08-26T01:56:47.852</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -106,11 +106,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DELL\source\repos\WeatherJSON1_12_17_2018\WeatherJSON1_12_17_2018\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-08-25T09:23:00.021</Modified>
+      <Modified>2020-08-26T01:56:49.113</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DELL\source\repos\WeatherJSON1_12_17_2018\WeatherJSON1_12_17_2018\bin\x86\Debug\Core\WeatherJSON1_12_17_2018.exe">
       <PackagePath>WeatherJSON1_12_17_2018.exe</PackagePath>
-      <Modified>2020-08-25T09:24:11.321</Modified>
+      <Modified>2020-08-26T01:56:50.280</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
