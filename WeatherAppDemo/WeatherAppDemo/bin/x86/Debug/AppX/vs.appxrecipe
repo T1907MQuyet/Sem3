@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\DELL\source\repos\WeatherAppDemo\WeatherAppDemo\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>6991E8BDB6506F8198796DAFB17E9530630B65F0F62D9482F7B3DE5718015877</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>8AAB8D2EBF3ECEA11D9C121E8658DE3770554D0A4F532D4BEFD235AC94D505FE</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>c9b2a8af-438a-4ed3-93b2-c3e0fad5be95_1.0.0.0_x86__hqhyg1cvr7f3y</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>c9b2a8af-438a-4ed3-93b2-c3e0fad5be95_hqhyg1cvr7f3y!App</RegisteredUserModeAppID>
     <RegisteredPackageID>c9b2a8af-438a-4ed3-93b2-c3e0fad5be95</RegisteredPackageID>
@@ -30,7 +30,7 @@
     <AppXManifest Include="C:\Users\DELL\source\repos\WeatherAppDemo\WeatherAppDemo\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-20T08:07:45.711</Modified>
+      <Modified>2020-08-21T04:44:29.730</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -162,11 +162,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DELL\source\repos\WeatherAppDemo\WeatherAppDemo\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-08-20T08:07:41.402</Modified>
+      <Modified>2020-08-21T04:44:28.520</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DELL\source\repos\WeatherAppDemo\WeatherAppDemo\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-08-20T08:07:41.402</Modified>
+      <Modified>2020-08-21T04:44:28.520</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -174,11 +174,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DELL\source\repos\WeatherAppDemo\WeatherAppDemo\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-08-20T08:07:43.023</Modified>
+      <Modified>2020-08-21T04:44:28.753</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DELL\source\repos\WeatherAppDemo\WeatherAppDemo\bin\x86\Debug\Core\WeatherAppDemo.exe">
       <PackagePath>WeatherAppDemo.exe</PackagePath>
-      <Modified>2020-08-20T08:07:45.652</Modified>
+      <Modified>2020-08-21T04:44:29.650</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

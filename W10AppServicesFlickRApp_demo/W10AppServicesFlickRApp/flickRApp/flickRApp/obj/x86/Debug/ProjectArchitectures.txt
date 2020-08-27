@@ -1,0 +1,2 @@
+C:\Users\TuanN\Downloads\W10AppServicesFlickRApp\flickRApp\flickRApp\flickRApp.csproj;x86
+C:\Users\TuanN\Downloads\W10AppServicesFlickRApp\flickRApp\flickRAppBackgroundTask\flickRAppBackgroundTask.csproj;x86
