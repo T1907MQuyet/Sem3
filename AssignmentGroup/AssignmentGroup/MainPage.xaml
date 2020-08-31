@@ -9,30 +9,42 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="5*"/>
-            <RowDefinition Height="2*"/>
-            <RowDefinition Height="4*"/>
-        </Grid.RowDefinitions>
-        <RelativePanel Margin="0,0,0,276" Background="#36b788">
-            <TextBlock 
-                Name="New"
-                Margin="0,35,0,0"
-                FontSize="100"
-                FontFamily="Leelawadee UI"
-                FontWeight="Thin"
-                
-                Text="Network"/>
-        </RelativePanel>
-        <ScrollViewer>
-            <TextBlock
-                Name="Date"
-                Margin="0,0,90,0"
-                
-                FontWeight="Black"
-                FontFamily="Leelawadee UI"
-                Text="hahah"/>
-        </ScrollViewer>
-    </Grid>
+    <ScrollViewer>
+        <Grid >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            <RelativePanel Grid.Row="0" Background="#3e9655">
+                <TextBlock Text="NetWork" FontSize="30"
+Foreground="White"
+RelativePanel.AlignVerticalCenterWithPanel="True"
+Margin="30"
+FontWeight="Bold"/>
+            </RelativePanel>
+            <ScrollViewer Grid.Row="1" Margin="20">
+                <StackPanel >
+                    <TextBlock Name="LocationTextBlock" FontSize="16"
+Foreground="Black"
+RelativePanel.AlignLeftWithPanel="True" TextWrapping="Wrap"
+Margin="0,10"/>
+                    <TextBlock TextWrapping="Wrap" Name="TemTextBlock"
+Margin="0,10"
+FontSize="22"
+Foreground="Black"
+RelativePanel.Below="LocationTextBlock"/>
+                    <Image Name="ResultImage"
+RelativePanel.AlignHorizontalCenterWithPanel="True"
+Width="auto"
+Margin="0,10"/>
+                    <TextBlock TextWrapping="Wrap"
+Name="DescriptionTextBlock" FontSize="20" Foreground="Black" RelativePanel.Below="ResultImage"/>
+
+                </StackPanel>
+            </ScrollViewer>
+
+
+
+        </Grid>
+    </ScrollViewer>
 </Page>
