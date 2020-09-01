@@ -1,4 +1,5 @@
 ﻿using AssignmentGroup.Models;
+using DataAccesLibrary;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -29,12 +30,10 @@ namespace AssignmentGroup
         public MainPage()
         {
             this.InitializeComponent();
+            sourceImage.Visibility = Visibility.Collapsed;
         }
 
-        private async void Click_Click(object sender, RoutedEventArgs e)
-        {
 
-        }
 
         private async void Page_Loaded(object sender, RoutedEventArgs e)
         {
@@ -42,8 +41,18 @@ namespace AssignmentGroup
             string image = String.Format(myNetwork.image);
             ResultImage.Source = new BitmapImage(new Uri(image, UriKind.Absolute));
             TemTextBlock.Text = myNetwork.title;
+            sourceImage.Text = myNetwork.image;
             DescriptionTextBlock.Text = Convert.ToString(myNetwork.content.description);
             LocationTextBlock.Text = myNetwork.date;
+
+        }
+
+        private async void AddBormarks_Click(object sender, RoutedEventArgs e)
+        {
+
+
+            Class1.AddData(sourceImage.Text);
+
 
         }
     }

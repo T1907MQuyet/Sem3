@@ -1,1 +1,2 @@
 C:\Users\DELL\source\repos\AssignmentGroup\AssignmentGroup\AssignmentGroup.csproj;x86
+C:\Users\DELL\source\repos\AssignmentGroup\DataAccesLibrary\DataAccesLibrary.csproj;x86

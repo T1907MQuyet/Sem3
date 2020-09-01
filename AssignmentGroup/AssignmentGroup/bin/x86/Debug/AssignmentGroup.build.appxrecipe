@@ -382,6 +382,9 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.xml.xmlserializer\4.0.11\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DELL\source\repos\AssignmentGroup\DataAccesLibrary\bin\x86\Debug\DataAccesLibrary.dll">
+      <PackagePath>DataAccesLibrary.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DELL\source\repos\AssignmentGroup\AssignmentGroup\Assets\zingsondoong-1-1586506261432.jpg">
       <PackagePath>Assets\zingsondoong-1-1586506261432.jpg</PackagePath>
     </AppxPackagedFile>
@@ -420,6 +423,12 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DELL\source\repos\AssignmentGroup\AssignmentGroup\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DELL\source\repos\AssignmentGroup\AssignmentGroup\bin\x86\Debug\BookMark.xbf">
+      <PackagePath>BookMark.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DELL\source\repos\AssignmentGroup\AssignmentGroup\bin\x86\Debug\Home.xbf">
+      <PackagePath>Home.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DELL\source\repos\AssignmentGroup\AssignmentGroup\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>

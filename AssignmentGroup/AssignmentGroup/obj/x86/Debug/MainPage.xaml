@@ -15,31 +15,37 @@
                 <RowDefinition Height="100"/>
                 <RowDefinition Height="auto"/>
             </Grid.RowDefinitions>
-            <RelativePanel Grid.Row="0" Background="#3e9655">
+            <RelativePanel Grid.Row="0" Background="#FF165D38">
                 <TextBlock Text="NetWork" FontSize="30"
-Foreground="White"
-RelativePanel.AlignVerticalCenterWithPanel="True"
-Margin="30"
-FontWeight="Bold"/>
+                       Foreground="White"
+                       RelativePanel.AlignVerticalCenterWithPanel="True"
+                       Margin="30"
+                       FontWeight="Bold"/>
             </RelativePanel>
             <ScrollViewer Grid.Row="1" Margin="20">
                 <StackPanel >
-                    <TextBlock x:ConnectionId='1' Name="LocationTextBlock" FontSize="16"
-Foreground="Black"
-RelativePanel.AlignLeftWithPanel="True" TextWrapping="Wrap"
-Margin="0,10"/>
-                    <TextBlock x:ConnectionId='2' TextWrapping="Wrap" Name="TemTextBlock"
-Margin="0,10"
-FontSize="22"
-Foreground="Black"
-RelativePanel.Below="LocationTextBlock"/>
-                    <Image x:ConnectionId='3' Name="ResultImage"
-RelativePanel.AlignHorizontalCenterWithPanel="True"
-Width="auto"
-Margin="0,10"/>
-                    <TextBlock x:ConnectionId='4' TextWrapping="Wrap"
-Name="DescriptionTextBlock" FontSize="20" Foreground="Black" RelativePanel.Below="ResultImage"/>
-
+                    <RelativePanel>
+                        <TextBlock x:ConnectionId='1'  Name="LocationTextBlock" FontSize="16"
+                                    Foreground="Black"
+                                    RelativePanel.AlignLeftWithPanel="True"
+                                    TextWrapping="Wrap"
+                                    Margin="0,10"/>
+                        <TextBlock x:ConnectionId='2' Name="sourceImage"/>
+                        <Button x:ConnectionId='3' x:Name="AddBormarks" RelativePanel.RightOf="LocationTextBlock"                           Content="Add Bormarks" />
+                        <TextBlock x:ConnectionId='4' TextWrapping="Wrap" Name="TemTextBlock"
+                                   Margin="0,10"
+                                   FontSize="22"
+                                   Foreground="Black" 
+                                   RelativePanel.Below="LocationTextBlock"/>
+                        <Image x:ConnectionId='5' Name="ResultImage"
+                                   RelativePanel.Below="TemTextBlock"
+                                    RelativePanel.AlignHorizontalCenterWithPanel="True"
+                                   Width="auto" 
+                                   Margin="0,10"/>
+                        <TextBlock x:ConnectionId='6' TextWrapping="Wrap" 
+                                   Name="DescriptionTextBlock" FontSize="20" Foreground="Black"
+                                       RelativePanel.Below="ResultImage"/>
+                    </RelativePanel>
                 </StackPanel>
             </ScrollViewer>
 

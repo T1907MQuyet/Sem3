@@ -2472,6 +2472,20 @@
             "rid": "aot"
           }
         }
+      },
+      "DataAccesLibrary/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.10586",
+        "dependencies": {
+          "Microsoft.Data.Sqlite": "1.1.1",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.10"
+        },
+        "compile": {
+          "bin/placeholder/DataAccesLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataAccesLibrary.dll": {}
+        }
       }
     },
     "UAP,Version=v10.0.10586/win10-arm": {
@@ -4938,6 +4952,20 @@
         },
         "runtime": {
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
+        }
+      },
+      "DataAccesLibrary/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.10586",
+        "dependencies": {
+          "Microsoft.Data.Sqlite": "1.1.1",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.10"
+        },
+        "compile": {
+          "bin/placeholder/DataAccesLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataAccesLibrary.dll": {}
         }
       }
     },
@@ -7442,6 +7470,20 @@
         "runtime": {
           "runtimes/aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "DataAccesLibrary/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.10586",
+        "dependencies": {
+          "Microsoft.Data.Sqlite": "1.1.1",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.10"
+        },
+        "compile": {
+          "bin/placeholder/DataAccesLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataAccesLibrary.dll": {}
+        }
       }
     },
     "UAP,Version=v10.0.10586/win10-arm64-aot": {
@@ -9929,6 +9971,20 @@
         "runtime": {
           "runtimes/aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "DataAccesLibrary/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.10586",
+        "dependencies": {
+          "Microsoft.Data.Sqlite": "1.1.1",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.10"
+        },
+        "compile": {
+          "bin/placeholder/DataAccesLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataAccesLibrary.dll": {}
+        }
       }
     },
     "UAP,Version=v10.0.10586/win10-x64": {
@@ -12404,6 +12460,20 @@
         },
         "runtime": {
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
+        }
+      },
+      "DataAccesLibrary/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.10586",
+        "dependencies": {
+          "Microsoft.Data.Sqlite": "1.1.1",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.10"
+        },
+        "compile": {
+          "bin/placeholder/DataAccesLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataAccesLibrary.dll": {}
         }
       }
     },
@@ -14917,6 +14987,20 @@
         "runtime": {
           "runtimes/aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "DataAccesLibrary/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.10586",
+        "dependencies": {
+          "Microsoft.Data.Sqlite": "1.1.1",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.10"
+        },
+        "compile": {
+          "bin/placeholder/DataAccesLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataAccesLibrary.dll": {}
+        }
       }
     },
     "UAP,Version=v10.0.10586/win10-x86": {
@@ -17392,6 +17476,20 @@
         },
         "runtime": {
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
+        }
+      },
+      "DataAccesLibrary/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.10586",
+        "dependencies": {
+          "Microsoft.Data.Sqlite": "1.1.1",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.10"
+        },
+        "compile": {
+          "bin/placeholder/DataAccesLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataAccesLibrary.dll": {}
         }
       }
     },
@@ -19904,6 +20002,20 @@
         },
         "runtime": {
           "runtimes/aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
+        }
+      },
+      "DataAccesLibrary/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.10586",
+        "dependencies": {
+          "Microsoft.Data.Sqlite": "1.1.1",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.10"
+        },
+        "compile": {
+          "bin/placeholder/DataAccesLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataAccesLibrary.dll": {}
         }
       }
     }
@@ -30277,10 +30389,16 @@
         "system.xml.xmlserializer.4.0.11.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "DataAccesLibrary/1.0.0": {
+      "type": "project",
+      "path": "../DataAccesLibrary/DataAccesLibrary.csproj",
+      "msbuildProject": "../DataAccesLibrary/DataAccesLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "UAP,Version=v10.0.10586": [
+      "DataAccesLibrary >= 1.0.0",
       "Microsoft.Data.Sqlite >= 1.1.1",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 6.2.10"
     ]
@@ -30315,7 +30433,11 @@
       },
       "frameworks": {
         "uap10.0.10586": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\DELL\\source\\repos\\AssignmentGroup\\DataAccesLibrary\\DataAccesLibrary.csproj": {
+              "projectPath": "C:\\Users\\DELL\\source\\repos\\AssignmentGroup\\DataAccesLibrary\\DataAccesLibrary.csproj"
+            }
+          }
         }
       }
     },

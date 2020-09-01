@@ -132,15 +132,19 @@ namespace AssignmentGroup.AssignmentGroup_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[3];
-            _typeNameTable[0] = "AssignmentGroup.MainPage";
+            _typeNameTable = new string[5];
+            _typeNameTable[0] = "AssignmentGroup.BookMark";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
+            _typeNameTable[3] = "AssignmentGroup.Home";
+            _typeNameTable[4] = "AssignmentGroup.MainPage";
 
-            _typeTable = new global::System.Type[3];
-            _typeTable[0] = typeof(global::AssignmentGroup.MainPage);
+            _typeTable = new global::System.Type[5];
+            _typeTable[0] = typeof(global::AssignmentGroup.BookMark);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
+            _typeTable[3] = typeof(global::AssignmentGroup.Home);
+            _typeTable[4] = typeof(global::AssignmentGroup.MainPage);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -175,7 +179,9 @@ namespace AssignmentGroup.AssignmentGroup_XamlTypeInfo
             return -1;
         }
 
-        private object Activate_0_MainPage() { return new global::AssignmentGroup.MainPage(); }
+        private object Activate_0_BookMark() { return new global::AssignmentGroup.BookMark(); }
+        private object Activate_3_Home() { return new global::AssignmentGroup.Home(); }
+        private object Activate_4_MainPage() { return new global::AssignmentGroup.MainPage(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -187,9 +193,9 @@ namespace AssignmentGroup.AssignmentGroup_XamlTypeInfo
             switch (typeIndex)
             {
 
-            case 0:   //  AssignmentGroup.MainPage
+            case 0:   //  AssignmentGroup.BookMark
                 userType = new global::AssignmentGroup.AssignmentGroup_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_0_MainPage;
+                userType.Activator = Activate_0_BookMark;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -200,6 +206,20 @@ namespace AssignmentGroup.AssignmentGroup_XamlTypeInfo
 
             case 2:   //  Windows.UI.Xaml.Controls.UserControl
                 xamlType = new global::AssignmentGroup.AssignmentGroup_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 3:   //  AssignmentGroup.Home
+                userType = new global::AssignmentGroup.AssignmentGroup_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_3_Home;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 4:   //  AssignmentGroup.MainPage
+                userType = new global::AssignmentGroup.AssignmentGroup_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_4_MainPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
                 break;
             }
             return xamlType;
