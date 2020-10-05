@@ -1,0 +1,59 @@
+﻿@model PracticalWebApplication.Models.Contact
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Contact</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NameContact)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NameContact)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NumberContact)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NumberContact)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GroupName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GroupName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.HireDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HireDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Birtday)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Birtday)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

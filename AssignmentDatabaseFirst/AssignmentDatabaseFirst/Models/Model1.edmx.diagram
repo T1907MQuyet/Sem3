@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d9c0ed81962e4e14814d894500b001ca" Name="Diagram1">
+        <EntityTypeShape EntityType="Assignment1Model.Bill" Width="1.5" PointX="7" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Assignment1Model.Employee" Width="1.5" PointX="3" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="Assignment1Model.FriendList" Width="1.5" PointX="5.25" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Assignment1Model.Member" Width="1.5" PointX="3.75" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Assignment1Model.PaymentType" Width="1.5" PointX="0.75" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Assignment1Model.Role" Width="1.5" PointX="0.625" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Assignment1Model.Service" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="Assignment1Model.Bill_fk0" ManuallyRouted="false" />
+        <AssociationConnector Association="Assignment1Model.Bill_fk1" ManuallyRouted="false" />
+        <AssociationConnector Association="Assignment1Model.Bill_fk2" ManuallyRouted="false" />
+        <AssociationConnector Association="Assignment1Model.Employee_fk0" ManuallyRouted="false" />
+        <AssociationConnector Association="Assignment1Model.FriendList_fk0" ManuallyRouted="false" />
+        <AssociationConnector Association="Assignment1Model.Member_fk0" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
